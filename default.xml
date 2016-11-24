@@ -5,7 +5,7 @@
   <remote name="qt5" fetch="https://github.com/meta-qt5/" />
 
   <!-- own repositories -->
-  <project name="meta-webradio" revision="master" remote="origin" path=".">
+  <project name="meta-webradio" revision="master" remote="origin" path="." />
 
   <!-- external repositories -->
   <project name="poky" revision="krogoth" remote="yocto" path="poky" />
