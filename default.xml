@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="git://git.yoctoproject.org/" />
+  <remote name="origin" fetch="https://github.com/mFlorianW/">
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
   <remote name="qt5" fetch="https://github.com/meta-qt5/" >
 
-  <project name="poky" revision="krogoth" remote="origin" path="poky" />
-  <project name="meta-raspberrypi" revision="krogoth" remote="origin" path="meta-raspberrypi" />
+  <!-- own repositories -->
+  <project name="meta-webradio" revision="master" remote="origin" path=".">
+
+  <!-- external repositories -->
+  <project name="poky" revision="krogoth" remote="yocto" path="poky" />
+  <project name="meta-raspberrypi" revision="krogoth" remote="yocto" path="meta-raspberrypi" />
   <project name="meta-qt5" revision="krogoth" remote="qt5" path="meta-qt5" />
 
 </manifest>
