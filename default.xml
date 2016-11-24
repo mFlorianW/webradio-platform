@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="git://git.yoctoproject.org/" />
+  <remote name="qt5" fetch="https://github.com/meta-qt5/" >
+
+  <project name="poky" revision="krogoth" remote="origin" path="poky" />
+  <project name="meta-raspberrypi" revision="krogoth" remote="origin" path="meta-raspberrypi" />
+  <project name="meta-qt5" revision="krogoth" remote="qt5" path="meta-qt5" />
+
+</manifest>
