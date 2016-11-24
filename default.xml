@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/mFlorianW/">
+  <remote name="origin" fetch="https://github.com/mFlorianW/" />
   <remote name="yocto" fetch="git://git.yoctoproject.org/" />
-  <remote name="qt5" fetch="https://github.com/meta-qt5/" >
+  <remote name="qt5" fetch="https://github.com/meta-qt5/" />
 
   <!-- own repositories -->
   <project name="meta-webradio" revision="master" remote="origin" path=".">
